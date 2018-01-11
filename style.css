@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lekton', sans-serif;
+  line-height: 1.6em;
+  font-size: 16px;
+}
+p{
+  text-align: justify;
+  padding: 0.8em 2em;
+}
+.highlight{
+  color: #ff8672;
+  font-weight: bold;
+}
+.hightlight a{
+  color:#ff8672;
+  font-size: 2em;
+}
+.hightlight a:visited{
+  color: #ff8672;
+}
+.firstImpression{
+  background-image: url("img/landing-image.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+}
+
+h3{
+  font-size: 24px;
+}
+
+p{
+  font-size: 18px;
+}
+
+nav{
+  height: 48px;
+  background: rgba(204,204,204,0.4);
+  border-bottom: 3px solid #ff8672;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul{
+
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 1.15em;
+  padding: 0 0.5em;
+}
+nav a{
+  font-family: 'Lekton', sans-serif;
+  color: #454545;
+  text-decoration: none;
+  text-align:center;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section-header{
+  height: 80px;
+  border-bottom: 3px solid #ff8672;
+  text-align: left;
+  line-height: 80px;
+  margin: 0.2em 1.5em;
+  font-family: 'Lato', sans-serif;
+}
+
+.container-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-row{
+  background: #FAFAFA;
+  box-shadow: 0.5px 0.5px 3px #A9A9A9;
+  margin:1.5em 3em;
+}
+
+.project-thumbnail img{
+  padding: 5px;
+  height: 250px;
+  width: 250px;
+  max-width: 100%;
+  border-radius: 10%;
+  margin: 2em 0.5em;
+  box-shadow: 2px 1px 3px #A9A9A9;
+}
+
+.project-thumbnail img:hover{
+  border: 1px solid #ff8672;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+}
+.box h5{
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #ff8672;
+}
+.box p{
+  text-align: left;
+}
+
+#footer{
+  height:2em;
+  background-color: #ff8672;
+  color:#fff;
+}
+#footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  height: 2em;
+}
+#footer li a {
+  color: #fff;
+}
